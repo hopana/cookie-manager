@@ -1,0 +1,16 @@
+{
+"update_url": "https://clients2.google.com/service/update2/crx",
+
+  "name" : "Cookies Manager",
+  "version" : "1.2",
+  "description" : "List and Manage for cookies",
+  "permissions": [ "cookies", "tabs", "http://*/*", "https://*/*" ],
+  "icons": { "16": "icons/cookie.png", "48": "icons/cookie.png", "128": "icons/cookie.png" },
+  "browser_action": {
+    "default_icon": "icons/cookie.png"
+  },
+  "background": {
+    "scripts": ["js/background.js"]
+  },
+  "manifest_version": 2
+}

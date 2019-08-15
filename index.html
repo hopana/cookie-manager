@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="gb2312"/>
+    <title>Cookie Manager</title>
+</head>
+<body>
+<link type="text/css" rel="stylesheet" rev="stylesheet" href="css/page.css"/>
+<link type="text/css" rel="stylesheet" rev="stylesheet" href="css/icon.css"/>
+<div style="margin:15px auto;text-align:center;">
+    <h2>Cookie Manager</h2>
+    <div class="ma">
+        <div class="filter-wrapper">
+            <div id="filter_div">
+                <label for="filter">过滤域名: </label>
+                <input id="filter" type="text"/>
+            </div>
+        </div>
+        <div class="content">
+            <div>
+                <table>
+                    <thead>
+                    <tr>
+                        <th class="th1">
+                            <div class="th-domain-div">
+                                <span>域名</span>
+                            </div>
+                        </th>
+                        <th class="th2">
+                            <div class="th-qt-div">数量</div>
+                        </th>
+                        <th class="th3">
+                            <div class="th-btn-div">
+                                <button id="remove_button" class="btn remove-all">清空</button>
+                            </div>
+                        </th>
+                    </tr>
+                    </thead>
+                </table>
+            </div>
+            <div id="datagroup"></div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="js/jquery-1.8.3.min.js" charset="utf-8"></script>
+<script type="text/javascript" src="js/page.js" charset="utf-8"></script>
+</body>
+</html>
